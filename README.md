@@ -1,6 +1,6 @@
 # Relational Self-Supervised Representation Learning on Graphs
 
-This is the official source code for **Relational Self-Supervised Representation Learning on Graphs** which is submitted at KDD 2022.
+The official source code for **Relational Self-Supervised Representation Learning on Graphs** paper, accepted at CIKM 2022.
 
 ### Requirements
 
