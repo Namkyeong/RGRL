@@ -12,9 +12,9 @@ we propose a novel GRL method, called **RGRL**, that learns from the relational 
 By considering the relationship among nodes in both global and local perspectives, **RGRL** overcomes limitations of previous contrastive and non-contrastive methods, and achieves the best of both worlds. 
 Extensive experiments on fourteen benchmark datasets over various downstream tasks demonstrate the superiority of **RGRL** over state-of-the-art baselines.
 
-**Graph-structured data exhibit the relational information among the nodes!**
+**Keep in mind: Graph-structured data exhibit the relational information among the nodes!**
 
-<img src="img/community3.png" width="700px"></img> 
+<img src="img/community3.png" width="500px"></img> 
 
 
 ### Requirements
