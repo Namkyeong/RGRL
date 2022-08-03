@@ -9,12 +9,12 @@ Recently, GRL methods have shown promising results by adopting self-supervised l
 To fully benefit from the relational information inherent in the graph-structured data,
 we propose a novel GRL method, called **RGRL**, that learns from the relational information generated from the graph itself. 
 **RGRL** learns node representations such that the relationship among nodes is invariant to augmentations, i.e., *augmentation-invariant relationship*, which allows the node representations to vary as long as the relationship among the nodes is preserved.
-By considering the relationship among nodes in both global and local perspectives,~\proposed~overcomes limitations of previous contrastive and non-contrastive methods, and achieves the best of both worlds. 
-Extensive experiments on fourteen benchmark datasets over various downstream tasks demonstrate the superiority of~\proposed~over state-of-the-art baselines.
-
-<img src="img/community3.png" width="700px"></img> 
+By considering the relationship among nodes in both global and local perspectives, **RGRL** overcomes limitations of previous contrastive and non-contrastive methods, and achieves the best of both worlds. 
+Extensive experiments on fourteen benchmark datasets over various downstream tasks demonstrate the superiority of **RGRL** over state-of-the-art baselines.
 
 **Graph-structured data exhibit the relational information among the nodes!**
+
+<img src="img/community3.png" width="700px"></img> 
 
 
 ### Requirements
