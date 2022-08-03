@@ -2,12 +2,26 @@
 
 The official source code for **Relational Self-Supervised Representation Learning on Graphs** paper, accepted at CIKM 2022.
 
+
+### Overview
+Over the past few years, graph representation learning (GRL) has been a powerful strategy for analyzing graph-structured data. 
+Recently, GRL methods have shown promising results by adopting self-supervised learning methods developed for learning representations of images. Despite their success, existing GRL methods tend to overlook an inherent distinction between images and graphs, i.e., images are assumed to be independently and identically distributed, whereas graphs exhibit relational information among data instances, i.e., nodes.
+To fully benefit from the relational information inherent in the graph-structured data,
+we propose a novel GRL method, called **RGRL**, that learns from the relational information generated from the graph itself. 
+**RGRL** learns node representations such that the relationship among nodes is invariant to augmentations, i.e., *augmentation-invariant relationship*, which allows the node representations to vary as long as the relationship among the nodes is preserved.
+By considering the relationship among nodes in both global and local perspectives,~\proposed~overcomes limitations of previous contrastive and non-contrastive methods, and achieves the best of both worlds. 
+Extensive experiments on fourteen benchmark datasets over various downstream tasks demonstrate the superiority of~\proposed~over state-of-the-art baselines.
+
+<img src="img/community3.png" width="700px"></img> 
+
+**Graph-structured data exhibit the relational information among the nodes!**
+
+
 ### Requirements
 
 - Python version: 3.7.10
 - Pytorch version: 1.8.1
 - torch-geometric version: 1.7.0
-
 
 ### Hyperparameters
 Following Options can be passed to `main.py`
