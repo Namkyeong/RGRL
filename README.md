@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/CIKM'22-brightgreen" /></a>
 </p>
 
-The official source code for **Relational Self-Supervised Representation Learning on Graphs** paper, accepted at CIKM 2022.
+The official source code for [**Relational Self-Supervised Representation Learning on Graphs**](https://arxiv.org/abs/2208.10493) paper, accepted at CIKM 2022.
 
 
 ### Overview
@@ -18,8 +18,6 @@ we propose a novel GRL method, called **RGRL**, that learns from the relational 
 **RGRL** learns node representations such that the relationship among nodes is invariant to augmentations, i.e., *augmentation-invariant relationship*, which allows the node representations to vary as long as the relationship among the nodes is preserved.
 By considering the relationship among nodes in both global and local perspectives, **RGRL** overcomes limitations of previous contrastive and non-contrastive methods, and achieves the best of both worlds. 
 Extensive experiments on fourteen benchmark datasets over various downstream tasks demonstrate the superiority of **RGRL** over state-of-the-art baselines.
-
-**Keep in mind! Graph-structured data exhibit the relational information among the nodes!**
 
 <img src="img/community3.png" width="500px"></img> 
 
