@@ -1,4 +1,4 @@
-# Relational Self-Supervised Representation Learning on Graphs
+# Relational Self-Supervised Learning on Graphs
 
 <p align="center">   
     <a href="https://pytorch.org/" alt="PyTorch">
@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/CIKM'22-brightgreen" /></a>
 </p>
 
-The official source code for [**Relational Self-Supervised Representation Learning on Graphs**](https://arxiv.org/abs/2208.10493) paper, accepted at CIKM 2022.
+The official source code for [**Relational Self-Supervised Learning on Graphs**](https://arxiv.org/abs/2208.10493) paper, accepted at CIKM 2022.
 
 
 ### Overview
