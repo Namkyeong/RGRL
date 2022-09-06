@@ -101,3 +101,16 @@ python main.py --device 0 --embedder RGRL --layers 512 256 --pred_hid 512 --lr 0
 ### Reproducibility
 We uploaded RGRL's learned embeddings in `embeddings` folder.  
 Please check `reproduce.ipynb` file for details.
+
+### Cite (Bibtex)
+- If you find ``RGRL`` useful in your research, please cite the following paper:
+  - Namkyeong Lee, Dongmin Hyun, Junseok Lee, and Chanyoung Park. "Relational Self-Supervised Learning on Graphs." CIKM 2022.
+  - Bibtex
+```
+@article{lee2022relational,
+  title={Relational Self-Supervised Learning on Graphs},
+  author={Lee, Namkyeong and Hyun, Dongmin and Lee, Junseok and Park, Chanyoung},
+  journal={arXiv preprint arXiv:2208.10493},
+  year={2022}
+}
+```
